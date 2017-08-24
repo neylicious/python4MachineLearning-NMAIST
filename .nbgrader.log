@@ -567,3 +567,282 @@
 [NotebookApp | WARNING] Saving untrusted notebook notebook/Feature and Model Selection Twaweza.ipynb
 [NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
 [NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/sambaiga/Training and workshop/python4MachineLearning-NMAIST
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=bee3f4c9ca199a99f1c07ba0f0abe3a51ac6ccf71019411a
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=bee3f4c9ca199a99f1c07ba0f0abe3a51ac6ccf71019411a
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from 127.0.0.1
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/server_extensions/assignment_list/handlers.py", line 63, in list_released_assignments
+        assignments = lister.start()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/list.py", line 129, in start
+        super(ExchangeList, self).start()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 122, in start
+        self.ensure_root()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 100, in ensure_root
+        self.fail("Unwritable directory, please contact your instructor: {}".format(self.root))
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 78, in fail
+        raise ExchangeError(msg)
+    nbgrader.exchange.exchange.ExchangeError: Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+    
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/server_extensions/assignment_list/handlers.py", line 63, in list_released_assignments
+        assignments = lister.start()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/list.py", line 129, in start
+        super(ExchangeList, self).start()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 122, in start
+        self.ensure_root()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 100, in ensure_root
+        self.fail("Unwritable directory, please contact your instructor: {}".format(self.root))
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 78, in fail
+        raise ExchangeError(msg)
+    nbgrader.exchange.exchange.ExchangeError: Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+    
+[NotebookApp | WARNING] 404 GET /nbextensions/egal/main.js?v=20170823153139 (127.0.0.1) 69.56ms referer=http://localhost:8888/notebooks/notebook/Practical%20Machine%20Learning%20with%20Sklearn.ipynb
+[NotebookApp | INFO] Kernel started: 6e991093-b108-48a1-ac9b-5d41f0731637
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170823153139 (127.0.0.1) 6.22ms referer=http://localhost:8888/notebooks/notebook/Practical%20Machine%20Learning%20with%20Sklearn.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 6e991093-b108-48a1-ac9b-5d41f0731637
+[NotebookApp | WARNING] Notebook notebook/Feature Selection and Model Selection.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /nbextensions/egal/main.js?v=20170823153139 (127.0.0.1) 6.37ms referer=http://localhost:8888/notebooks/notebook/Feature%20Selection%20and%20Model%20Selection.ipynb
+[NotebookApp | INFO] Kernel started: 777fc08b-c436-4040-9090-6ff35ebc3361
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170823153139 (127.0.0.1) 3.18ms referer=http://localhost:8888/notebooks/notebook/Feature%20Selection%20and%20Model%20Selection.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 777fc08b-c436-4040-9090-6ff35ebc3361
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Notebook notebook/Grid Search and Model Evaluation.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /nbextensions/egal/main.js?v=20170823153139 (127.0.0.1) 3.02ms referer=http://localhost:8888/notebooks/notebook/Grid%20Search%20and%20Model%20Evaluation.ipynb
+[NotebookApp | INFO] Kernel started: 5a65fec4-6032-4dbb-84c9-f8bc1e897179
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170823153139 (127.0.0.1) 3.21ms referer=http://localhost:8888/notebooks/notebook/Grid%20Search%20and%20Model%20Evaluation.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5a65fec4-6032-4dbb-84c9-f8bc1e897179
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Kernel restarted: 777fc08b-c436-4040-9090-6ff35ebc3361
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 777fc08b-c436-4040-9090-6ff35ebc3361
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Kernel restarted: 5a65fec4-6032-4dbb-84c9-f8bc1e897179
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5a65fec4-6032-4dbb-84c9-f8bc1e897179
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/egal/main.js?v=20170823153139 (127.0.0.1) 52.08ms referer=http://localhost:8888/notebooks/notebook/Practical%20Machine%20Learning%20with%20Sklearn.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 6e991093-b108-48a1-ac9b-5d41f0731637
+[NotebookApp | WARNING] 404 GET /nbextensions/egal/main.js?v=20170823153139 (127.0.0.1) 12.00ms referer=http://localhost:8888/notebooks/notebook/Practical%20Machine%20Learning%20with%20Sklearn.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 6e991093-b108-48a1-ac9b-5d41f0731637
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170823153139 (127.0.0.1) 11.22ms referer=http://localhost:8888/notebooks/notebook/Practical%20Machine%20Learning%20with%20Sklearn.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/egal/main.js?v=20170823153139 (127.0.0.1) 10.92ms referer=http://localhost:8888/notebooks/notebook/Introduction%20to%20sklearn.ipynb
+[NotebookApp | INFO] Kernel started: e3d298ce-d2f9-4020-be2e-579c8aaad9ea
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170823153139 (127.0.0.1) 14.40ms referer=http://localhost:8888/notebooks/notebook/Introduction%20to%20sklearn.ipynb
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from e3d298ce-d2f9-4020-be2e-579c8aaad9ea
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel e3d298ce-d2f9-4020-be2e-579c8aaad9ea
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/sambaiga/Training and workshop/python4MachineLearning-NMAIST
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=1a40f620bd96c97f052a62f6a46b453c10bfc17e97eec488
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=1a40f620bd96c97f052a62f6a46b453c10bfc17e97eec488
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from 127.0.0.1
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/server_extensions/assignment_list/handlers.py", line 63, in list_released_assignments
+        assignments = lister.start()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/list.py", line 129, in start
+        super(ExchangeList, self).start()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 122, in start
+        self.ensure_root()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 100, in ensure_root
+        self.fail("Unwritable directory, please contact your instructor: {}".format(self.root))
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 78, in fail
+        raise ExchangeError(msg)
+    nbgrader.exchange.exchange.ExchangeError: Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+    
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/server_extensions/assignment_list/handlers.py", line 63, in list_released_assignments
+        assignments = lister.start()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/list.py", line 129, in start
+        super(ExchangeList, self).start()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 122, in start
+        self.ensure_root()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 100, in ensure_root
+        self.fail("Unwritable directory, please contact your instructor: {}".format(self.root))
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 78, in fail
+        raise ExchangeError(msg)
+    nbgrader.exchange.exchange.ExchangeError: Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+    
+[NotebookApp | WARNING] 404 GET /nbextensions/egal/main.js?v=20170824094047 (127.0.0.1) 70.06ms referer=http://localhost:8888/notebooks/notebook/Grid%20Search%20and%20Model%20Evaluation.ipynb
+[NotebookApp | INFO] Kernel started: 8fe2e5ff-23f3-4498-b66a-76fe84007422
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170824094047 (127.0.0.1) 4.85ms referer=http://localhost:8888/notebooks/notebook/Grid%20Search%20and%20Model%20Evaluation.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8fe2e5ff-23f3-4498-b66a-76fe84007422
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down kernels
+[NotebookApp | INFO] Kernel shutdown: 8fe2e5ff-23f3-4498-b66a-76fe84007422
