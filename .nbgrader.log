@@ -846,3 +846,180 @@
 [NotebookApp | CRITICAL] Shutdown confirmed
 [NotebookApp | INFO] Shutting down kernels
 [NotebookApp | INFO] Kernel shutdown: 8fe2e5ff-23f3-4498-b66a-76fe84007422
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/sambaiga/Training and workshop/python4MachineLearning-NMAIST
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=fe756b196e19cfb6002ab59c5035a90031cdb70e05c223ff
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=fe756b196e19cfb6002ab59c5035a90031cdb70e05c223ff
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from 127.0.0.1
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/server_extensions/assignment_list/handlers.py", line 63, in list_released_assignments
+        assignments = lister.start()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/list.py", line 129, in start
+        super(ExchangeList, self).start()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 122, in start
+        self.ensure_root()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 100, in ensure_root
+        self.fail("Unwritable directory, please contact your instructor: {}".format(self.root))
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 78, in fail
+        raise ExchangeError(msg)
+    nbgrader.exchange.exchange.ExchangeError: Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+    
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/egal/main.js?v=20170824100638 (127.0.0.1) 22.68ms referer=http://localhost:8888/notebooks/notebook/Grid%20Search%20and%20Model%20Evaluation.ipynb
+[NotebookApp | INFO] Kernel started: ece5a1d3-6c6f-4a35-808a-faaa4acc18eb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170824100638 (127.0.0.1) 3.94ms referer=http://localhost:8888/notebooks/notebook/Grid%20Search%20and%20Model%20Evaluation.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel ece5a1d3-6c6f-4a35-808a-faaa4acc18eb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Grid Search and Model Evaluation.ipynb
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down kernels
+[NotebookApp | INFO] Kernel shutdown: ece5a1d3-6c6f-4a35-808a-faaa4acc18eb
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/sambaiga/Training and workshop/python4MachineLearning-NMAIST
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=307ab2fe05edca3bb58815fa2d010959f2f6a64eacf797d9
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=307ab2fe05edca3bb58815fa2d010959f2f6a64eacf797d9
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from 127.0.0.1
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/server_extensions/assignment_list/handlers.py", line 63, in list_released_assignments
+        assignments = lister.start()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/list.py", line 129, in start
+        super(ExchangeList, self).start()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 122, in start
+        self.ensure_root()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 100, in ensure_root
+        self.fail("Unwritable directory, please contact your instructor: {}".format(self.root))
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 78, in fail
+        raise ExchangeError(msg)
+    nbgrader.exchange.exchange.ExchangeError: Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+    
+[NotebookApp | WARNING] 404 GET /api/kernels/1674908d-dd5c-443c-90b5-8f752ef1c12f/channels?session_id=AA1CA615E55C4E91849AD8BBA104AE71 (127.0.0.1): Kernel does not exist: 1674908d-dd5c-443c-90b5-8f752ef1c12f
+[NotebookApp | WARNING] 404 GET /api/kernels/1674908d-dd5c-443c-90b5-8f752ef1c12f/channels?session_id=AA1CA615E55C4E91849AD8BBA104AE71 (127.0.0.1) 55.10ms referer=None
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/server_extensions/assignment_list/handlers.py", line 63, in list_released_assignments
+        assignments = lister.start()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/list.py", line 129, in start
+        super(ExchangeList, self).start()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 122, in start
+        self.ensure_root()
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 100, in ensure_root
+        self.fail("Unwritable directory, please contact your instructor: {}".format(self.root))
+      File "/home/sambaiga/anaconda3/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 78, in fail
+        raise ExchangeError(msg)
+    nbgrader.exchange.exchange.ExchangeError: Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+    
+[NotebookApp | WARNING] Notebook notebook/Introduction to sklearn.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /nbextensions/egal/main.js?v=20170824115455 (127.0.0.1) 3.40ms referer=http://localhost:8888/notebooks/notebook/Introduction%20to%20sklearn.ipynb
+[NotebookApp | INFO] Kernel started: aa853d61-435d-45f9-8a4e-61dcea73a27d
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170824115455 (127.0.0.1) 4.05ms referer=http://localhost:8888/notebooks/notebook/Introduction%20to%20sklearn.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel aa853d61-435d-45f9-8a4e-61dcea73a27d
+[NotebookApp | WARNING] Deprecated files/ URL: notebook/files/image.png
+[NotebookApp | WARNING] 404 GET /notebooks/notebook/files/image.png (127.0.0.1) 4.16ms referer=http://localhost:8888/notebooks/notebook/Introduction%20to%20sklearn.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Introduction to sklearn.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/egal/main.js?v=20170824115455 (127.0.0.1) 4.96ms referer=http://localhost:8888/notebooks/notebook/13.Cross_Validation.ipynb
+[NotebookApp | INFO] Kernel started: 81ab4b5c-5963-4592-86b7-b4d19af96a3d
+[NotebookApp | WARNING] 404 GET /notebooks/notebook/figures/cross_validation.svg (127.0.0.1): No such file or directory: notebook/figures/cross_validation.svg
+[NotebookApp | WARNING] 404 GET /notebooks/notebook/figures/cross_validation.svg (127.0.0.1) 3.88ms referer=http://localhost:8888/notebooks/notebook/13.Cross_Validation.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/notebook/figures/train_test_split.svg (127.0.0.1): No such file or directory: notebook/figures/train_test_split.svg
+[NotebookApp | WARNING] 404 GET /notebooks/notebook/figures/train_test_split.svg (127.0.0.1) 8.71ms referer=http://localhost:8888/notebooks/notebook/13.Cross_Validation.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170824115455 (127.0.0.1) 2.04ms referer=http://localhost:8888/notebooks/notebook/13.Cross_Validation.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 81ab4b5c-5963-4592-86b7-b4d19af96a3d
+[NotebookApp | INFO] Saving file at /notebook/Introduction to sklearn.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/notebook/figure/Pythontz-final.png (127.0.0.1) 2.74ms
+[NotebookApp | WARNING] Notebook notebook/Practical Machine Learning with Sklearn.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /nbextensions/egal/main.js?v=20170824115455 (127.0.0.1) 4.04ms referer=http://localhost:8888/notebooks/notebook/Practical%20Machine%20Learning%20with%20Sklearn.ipynb
+[NotebookApp | INFO] Kernel started: 0dc1682a-1cd8-4624-8b21-7de18c7f02a4
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170824115455 (127.0.0.1) 3.43ms referer=http://localhost:8888/notebooks/notebook/Practical%20Machine%20Learning%20with%20Sklearn.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 0dc1682a-1cd8-4624-8b21-7de18c7f02a4
+[NotebookApp | INFO] Saving file at /notebook/Introduction to sklearn.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/notebook/figure/ml_pipeline_large.png (127.0.0.1) 1.98ms
+[NotebookApp | INFO] Saving file at /notebook/Practical Machine Learning with Sklearn.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook notebook/Practical Machine Learning with Sklearn.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/notebook/figure/ml_pipeline_large.png (127.0.0.1) 1.60ms
+[NotebookApp | WARNING] 404 GET /nbextensions/egal/main.js?v=20170824115455 (127.0.0.1) 2.15ms referer=http://localhost:8888/notebooks/notebook/Feature%20Selection%20and%20Model%20Selection.ipynb
+[NotebookApp | INFO] Kernel started: 2faebd48-cd38-4ec6-8220-ad55fa2784e9
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170824115455 (127.0.0.1) 5.28ms referer=http://localhost:8888/notebooks/notebook/Feature%20Selection%20and%20Model%20Selection.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 2faebd48-cd38-4ec6-8220-ad55fa2784e9
+[NotebookApp | INFO] Saving file at /notebook/Introduction to sklearn.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/notebook/figure/cross_validation.svg (127.0.0.1) 1.57ms
+[NotebookApp | INFO] Saving file at /notebook/Feature Selection and Model Selection.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/egal/main.js?v=20170824115455 (127.0.0.1) 3.52ms referer=http://localhost:8888/notebooks/notebook/Part%204-Modeltuning%20and%20Evaluation.ipynb
+[NotebookApp | INFO] Kernel started: ec63b8a5-0224-4fc2-a467-c4bd5017f928
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170824115455 (127.0.0.1) 2.68ms referer=http://localhost:8888/notebooks/notebook/Part%204-Modeltuning%20and%20Evaluation.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel ec63b8a5-0224-4fc2-a467-c4bd5017f928
+[NotebookApp | INFO] Saving file at /notebook/Part 4-Modeltuning and Evaluation.ipynb
+[NotebookApp | INFO] Saving file at /notebook/Part 4-Modeltuning and Evaluation.ipynb
+[NotebookApp | INFO] Kernel restarted: ec63b8a5-0224-4fc2-a467-c4bd5017f928
+[NotebookApp | INFO] Saving file at /notebook/Part 4-Modeltuning and Evaluation.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel ec63b8a5-0224-4fc2-a467-c4bd5017f928
+[NotebookApp | INFO] Kernel restarted: ec63b8a5-0224-4fc2-a467-c4bd5017f928
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel ec63b8a5-0224-4fc2-a467-c4bd5017f928
+[NotebookApp | WARNING] 404 GET /nbextensions/egal/main.js?v=20170824115455 (127.0.0.1) 4.12ms referer=http://localhost:8888/notebooks/notebook/Part%203-Feature%20Selection%20and%20Model%20Selection.ipynb
+[NotebookApp | INFO] Kernel started: 86814bee-ecf0-45f7-8aed-e5a912ad1326
+[NotebookApp | INFO] 302 GET /notebooks/notebook/figure/cross_validation.svg (127.0.0.1) 2.56ms
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170824115455 (127.0.0.1) 3.40ms referer=http://localhost:8888/notebooks/notebook/Part%203-Feature%20Selection%20and%20Model%20Selection.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 86814bee-ecf0-45f7-8aed-e5a912ad1326
+[NotebookApp | INFO] Kernel restarted: 86814bee-ecf0-45f7-8aed-e5a912ad1326
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 86814bee-ecf0-45f7-8aed-e5a912ad1326
+[NotebookApp | WARNING] Notebook notebook/Part 2-Practical Machine Learning with Sklearn.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 2fdcd770-acb5-4132-8b78-075306246eae
+[NotebookApp | WARNING] 404 GET /nbextensions/egal/main.js?v=20170824115455 (127.0.0.1) 6.89ms referer=http://localhost:8888/notebooks/notebook/Part%202-Practical%20Machine%20Learning%20with%20Sklearn.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170824115455 (127.0.0.1) 3.64ms referer=http://localhost:8888/notebooks/notebook/Part%202-Practical%20Machine%20Learning%20with%20Sklearn.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 2fdcd770-acb5-4132-8b78-075306246eae
+[NotebookApp | INFO] Kernel restarted: 2fdcd770-acb5-4132-8b78-075306246eae
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 2fdcd770-acb5-4132-8b78-075306246eae
+[NotebookApp | WARNING] 404 GET /nbextensions/egal/main.js?v=20170824115455 (127.0.0.1) 3.38ms referer=http://localhost:8888/notebooks/notebook/Part%201-Introduction%20to%20sklearn.ipynb
+[NotebookApp | INFO] Kernel started: ca084c10-bd2a-4010-8def-40a3e004b061
+[NotebookApp | INFO] 302 GET /notebooks/notebook/figure/Pythontz-final.png (127.0.0.1) 4.66ms
+[NotebookApp | INFO] 302 GET /notebooks/notebook/figure/ml_pipeline_large.png (127.0.0.1) 1.77ms
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170824115455 (127.0.0.1) 4.03ms referer=http://localhost:8888/notebooks/notebook/Part%201-Introduction%20to%20sklearn.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel ca084c10-bd2a-4010-8def-40a3e004b061
+[NotebookApp | INFO] Kernel restarted: ca084c10-bd2a-4010-8def-40a3e004b061
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel ca084c10-bd2a-4010-8def-40a3e004b061
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down kernels
+[NotebookApp | INFO] Kernel shutdown: aa853d61-435d-45f9-8a4e-61dcea73a27d
+[NotebookApp | INFO] Kernel shutdown: 81ab4b5c-5963-4592-86b7-b4d19af96a3d
+[NotebookApp | INFO] Kernel shutdown: 0dc1682a-1cd8-4624-8b21-7de18c7f02a4
+[NotebookApp | INFO] Kernel shutdown: 2faebd48-cd38-4ec6-8220-ad55fa2784e9
+[NotebookApp | INFO] Kernel shutdown: ec63b8a5-0224-4fc2-a467-c4bd5017f928
+[NotebookApp | INFO] Kernel shutdown: 86814bee-ecf0-45f7-8aed-e5a912ad1326
+[NotebookApp | INFO] Kernel shutdown: 2fdcd770-acb5-4132-8b78-075306246eae
+[NotebookApp | INFO] Kernel shutdown: ca084c10-bd2a-4010-8def-40a3e004b061
